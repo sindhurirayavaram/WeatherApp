@@ -20,7 +20,7 @@ public class emailDispatcher {
 		Content content = new Content("text/plain", "and easy to do anywhere, even with Java");
 		Mail mail = new Mail(from, subject, to, content);
 
-		SendGrid sg = new SendGrid("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");
+		SendGrid sg = new SendGrid("API key");
 		Request request = new Request();
 		try {
 			request.setMethod(Method.POST);
